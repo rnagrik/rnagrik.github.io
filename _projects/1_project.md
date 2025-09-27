@@ -19,5 +19,5 @@ Later we compare these optimized estimates using the ground truth (VICON data). 
   </div>
 </div>
 <div class="caption">
-  Panorama generated using the optimized orientation estimates.
+  Figure 1. Panorama generated using the optimized orientation estimates.
 </div>
