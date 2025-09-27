@@ -2,9 +2,8 @@
 layout: page
 title: project 4
 description: another without an image
-img:
-importance: 3
-category:
+img: assets/myprojects/pr1/pano.png
+importance: 4
 ---
 
 Every project has a beautiful feature showcase page.

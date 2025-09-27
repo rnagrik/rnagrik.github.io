@@ -2,7 +2,7 @@
 layout: page
 title: Orientation Tracking & Panorama Generation
 description:
-img: assets/myprojects/pr1/pano.png
+img: assets/myprojects/pr1/pano_sq.png
 importance: 1
 ---
 
