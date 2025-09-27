@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-projects",
-          title: "Projects",
+          title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "projects-orientation-tracking-amp-panorama-generation",
+          title: 'Orientation Tracking &amp;amp; Panorama Generation',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
