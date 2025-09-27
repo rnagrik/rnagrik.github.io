@@ -4,7 +4,6 @@ title: project 5
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category:
 ---
 
 Every project has a beautiful feature showcase page.
@@ -42,6 +41,40 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myproject/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Figure 1. Landmark update while robot is traversing.
+</div>
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myproject/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Figure 1. Landmark update while robot is traversing.
+</div>
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myproject/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Figure 1. Landmark update while robot is traversing.
+</div>
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myproject/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Figure 1. Landmark update while robot is traversing.
+</div>
+
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
