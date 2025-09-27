@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: "Graduate student @ <a href = 'https://ucsd.edu/'>UC San Diego</a> | Previously: <a href = 'https://www.iitd.ac.in/'>IIT Delhi</a>"
+subtitle: "Graduate student @<a href = 'https://ucsd.edu/'>UC San Diego</a> | Previously: <a href = 'https://www.iitd.ac.in/'>IIT Delhi</a>"
 
 profile:
   align: 
