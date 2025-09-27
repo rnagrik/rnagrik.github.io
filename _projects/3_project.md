@@ -2,7 +2,7 @@
 layout: page
 title: Visual-Inertial SLAM
 description:
-img: assets/myproject/pr3/lmap.gif
+img: assets/myprojects/pr3/lmap.gif
 importance: 1
 ---
 
@@ -17,7 +17,7 @@ Finally, we implement an EKF-based **VI-SLAM** that fuses the motion model and t
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myproject/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -26,10 +26,10 @@ Finally, we implement an EKF-based **VI-SLAM** that fuses the motion model and t
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myproject/pr3/comp1.png" title="Trajectory + Landmarks (Seq. 1)" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/comp1.png" title="Trajectory + Landmarks (Seq. 1)" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myproject/pr3/comp2.png" title="Trajectory + Landmarks (Seq. 2)" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/comp2.png" title="Trajectory + Landmarks (Seq. 2)" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
