@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Graduate student @ <a href = 'https://ucsd.edu/'>UC San Diego</a> | Previously: <a href = 'https://www.iitd.ac.in/'>IIT Delhi</a>"
 
 profile:
   align: 
@@ -24,8 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a master's student at UC San Diego working in robotics. Before this, I graduated from IIT Delhi with a bachelor's in Mechanical Engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My interests span motion and behaviour planning, SLAM, robot learning, and multi-agents systems with intelligent and safe coordination in complex real-world environments. I also work as a graduate researcher at the <a href = 'https://erl.ucsd.edu/'>Existential Robotics Laboratory (ERL)</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During my undergraduate studies, I was part of the Formula SAE team, where I worked on developing the high-voltage battery for our open-wheel racecar.
+
+In my spare time, I like to swim, hike along the San Diego coast line, watch football and solve sudoku.
+
+Please feel free to check out my projects and reach out, if anything interests you. I'm always eager to connect!
