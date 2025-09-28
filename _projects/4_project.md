@@ -8,7 +8,7 @@ importance: 1
 
 In this project, we are tasked to navigate an agent to goal in a **Door–Key** gridworld. There might be multiple key locations and doors in an environment. We can model this as a Markov Decision Process (MDP) and solve for the optimal policy with **backward Dynamic Programming**. 
 
-We start by defining an MDP with a discrete **state** \((i,j,\theta,k,d)\) capturing position, orientation, key possession, and door state, a **control set** \(\{ \text{MF}, \text{TL}, \text{TR}, \text{PK}, \text{UD} \}\), and a **motion model** \(x_{t+1}=f(x_t,u_t)\). We define transition costs for valid transitions. Running **backward DP** over a finite horizon yields the value function and the optimal action at each state.
+We start by defining an MDP with a discrete state $(i,j,\theta,k,d)$ capturing position, orientation, key possession, and door state, a **control set** $\{ \text{MF}, \text{TL}, \text{TR}, \text{PK}, \text{UD} \}$, and a **motion model** $x_{t+1}=f(x_t,u_t)$. We define transition costs for valid transitions. Running **backward DP** over a finite horizon yields the value function and the optimal action at each state.
 
 
 We evaluate two scenarios, **known** and **random** maps. In known maps, goal, key, and door placements are fixed, so the policy converges quickly. In random maps, placements and door states are uncertain; we handle this within the DP formulation and obtain a unified policy for all map realizations.
