@@ -48,9 +48,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-trajectory-tracking-with-stochastic-optimal-control",
+          title: 'Trajectory Tracking with Stochastic Optimal Control',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
