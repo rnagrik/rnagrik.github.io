@@ -26,7 +26,7 @@ latest_posts:
 
 I'm a master's student at UC San Diego working in robotics. Before this, I graduated from IIT Delhi with a bachelor's in Mechanical Engineering.
 
-My interests span motion and behaviour planning, SLAM, robot learning, and multi-agents systems with intelligent and safe coordination in complex real-world environments. I also work as a graduate researcher at the <a href = 'https://erl.ucsd.edu/'>Existential Robotics Laboratory (ERL)</a>.
+My interests span motion and behavior planning, SLAM, robot learning, and multi-agent systems with intelligent and safe coordination in complex real-world environments. I also work as a graduate researcher at the <a href = 'https://erl.ucsd.edu/'>Existential Robotics Laboratory (ERL)</a>.
 
 During my undergraduate studies, I was part of the Formula SAE team, where I worked on developing the high-voltage battery for our open-wheel racecar.
 

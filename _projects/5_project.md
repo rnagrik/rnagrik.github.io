@@ -1,113 +1,65 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Motion Planning with A* and RRT-Connect
+description:
+img: assets/myprojects/pr5/Astar_monza.gif
+importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this project, we implement **motion planning** for a point robot navigating among axis-aligned bounding boxes (**AABBs**) in various 3D environments. We use **search-based** and **sampling-based** methods and evaluate path quality, runtime, and explored states.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For the search-based approach, we implement **A\*** on a discretized 3D grid, using euclidean distance as an admissible heuristic.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+For the sampling-based approach, we implement **RRT-Connect** with **bi-directional growth** from the start and goal positions. Nearest-neighbor queries select extension targets, line-segment checks enforce collision-free branches, and a post-processing path smoothing step removes redundant waypoints. RRT-Connect is **probabilistically complete** and scales well in open spaces.
+
+A\* yielded optimal paths and performed strongly in constrained maps, while RRT-Connect explored orders of magnitude fewer nodes in open spaces and computed feasible paths faster. In environments with tight passages, RRT-Connect required more sampling and time.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/Astar_window.gif" title="A* in Window" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/RRTConnect_window.gif" title="RRT-Connect in Window" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  Figure 1. Window environment. Left: A* produces a near-straight, grid-optimal path. Right: RRT-Connect finds a quick feasible route with fewer explored nodes.
 </div>
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/Astar_maze.gif" title="A* in Maze" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/RRTConnect_maze.gif" title="RRT-Connect in Maze" class="img-fluid rounded z  -depth-1" %}
   </div>
 </div>
 <div class="caption">
-  Figure 1. Landmark update while robot is traversing.
+  Figure 2. Maze environment. A* excels in narrow corridors while RRT-Connect requires more samples to traverse tight passages.
 </div>
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/Astar_monza.gif" title="A* in Monza" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/RRTConnect_monza.gif" title="RRT-Connect in Monza" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-  Figure 1. Landmark update while robot is traversing.
+  Figure 3. Monza environment. Similar path costs (coarser grid for A*). A* plans faster, while RRT-Connect explores many more nodes to clear the narrow passage.
+
 </div>
-<div class="row justify-content-sm-center">
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/Astar_room.gif" title="A* in Room" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr5/RRTConnect_room.gif" title="RRT-Connect in Room" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-  Figure 1. Landmark update while robot is traversing.
-</div>
-<div class="row justify-content-sm-center">
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/myprojects/pr3/lmap.gif" title="Landmark Mapping During Traversal" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Figure 1. Landmark update while robot is traversing.
+  Figure 4. Room environment. Initially, A* explores highly in the confined space, while RRT-Connect using far fewer nodes plans faster in the open space.
 </div>
 
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
