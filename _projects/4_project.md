@@ -1,79 +1,30 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img: assets/myprojects/pr1/pano.png
-importance: 4
+title: Door–Key Navigation with Dynamic Programming
+description:
+img: assets/myprojects/pr4/doorkey-8x8-normal.gif
+importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this project, we are tasked to navigate an agent to goal in a **Door–Key** gridworld. There might be multiple key locations and doors in an environment. We can model this as a Markov Decision Process (MDP) and solve for the optimal policy with **backward Dynamic Programming**. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We start by defining an MDP with a discrete **state** \((i,j,\theta,k,d)\) capturing position, orientation, key possession, and door state, a **control set** \(\{ \text{MF}, \text{TL}, \text{TR}, \text{PK}, \text{UD} \}\), and a **motion model** \(x_{t+1}=f(x_t,u_t)\). We define transition costs for valid transitions. Running **backward DP** over a finite horizon yields the value function and the optimal action at each state.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+We evaluate two scenarios, **known** and **random** maps. In known maps, goal, key, and door placements are fixed, so the policy converges quickly. In random maps, placements and door states are uncertain; we handle this within the DP formulation and obtain a unified policy for all map realizations.
+
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr4/doorkey-8x8-normal.gif" title="Known Map: Direct Path (no key needed)" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr4/random_20.gif" title="Known Map: Shortcut via Door (key acquired)" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/myprojects/pr4/random_32.gif" title="Random Map: Policy on a sampled realization" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+  Figure 1. Optimal plans from backward DP in known and random environments, illustrating key–door use and randomized layouts and direct transit.
+</div>

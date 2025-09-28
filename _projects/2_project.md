@@ -27,7 +27,7 @@ Finally, we optimize the trajectory by constructing a factor graph with ICP-deri
 </div>
 
 <div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
+  <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/myprojects/pr2/comparison.png" title="Trajectory Comparison" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
