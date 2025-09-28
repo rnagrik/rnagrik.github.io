@@ -2,9 +2,8 @@
 layout: page
 title: project 6
 description: a project with no image
-img:
+img: assets/myprojects/pr5/RRTConnect_monza.gif
 importance: 4
-category:
 ---
 
 Every project has a beautiful feature showcase page.

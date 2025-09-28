@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Motion Planning with A* and RRT-Connect
+title: 3D Motion Planning
 description:
 img: assets/myprojects/pr5/Astar_monza.gif
 importance: 1
