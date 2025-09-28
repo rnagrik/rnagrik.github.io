@@ -2,7 +2,7 @@
 layout: page
 title: project 8
 description: an other project with a background image and giscus comments
-img: assets/myprojects/pr5/RRTConnect_window.gif
+img: assets/myprojects/pr5/Astar_monza.gif
 importance: 2
 ---
 

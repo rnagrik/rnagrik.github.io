@@ -2,7 +2,7 @@
 layout: page
 title: 3D Motion Planning
 description:
-img: assets/myprojects/pr5/Astar_monza.gif
+img: assets/myprojects/pr5/RRTConnect_window.gif
 importance: 1
 ---
 
