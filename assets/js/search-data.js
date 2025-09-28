@@ -43,8 +43,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-motion-planning-with-a-and-rrt-connect",
-          title: 'Motion Planning with A* and RRT-Connect',
+            },},{id: "projects-3d-motion-planning",
+          title: '3D Motion Planning',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
