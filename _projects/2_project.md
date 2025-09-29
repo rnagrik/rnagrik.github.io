@@ -3,7 +3,7 @@ layout: page
 title: LiDAR SLAM with Pose Graph Optimization
 description:
 img: assets/myprojects/pr2/texture.gif
-importance: 1
+importance: 14
 ---
 
 In this project, we implement LiDAR-based SLAM on a differential-drive robot with wheel encoders, IMU, 2D LiDAR, and RGB-D camera.

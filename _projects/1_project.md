@@ -3,7 +3,7 @@ layout: page
 title: Orientation Tracking & Panorama Generation
 description:
 img: assets/myprojects/pr1/pano_sq.png
-importance: 1
+importance: 20
 ---
 
 In this project, we are provided with IMU data and RGB camera images from a mobile platform, along with VICON orientation data (ground truth). The goal is to obtain orientation estimates and stitch a panorama using the available data. 

@@ -3,7 +3,7 @@ layout: page
 title: 3D Motion Planning
 description:
 img: assets/myprojects/pr5/RRTConnect_window.gif
-importance: 1
+importance: 13
 ---
 
 In this project, we implement **motion planning** for a point robot navigating among axis-aligned bounding boxes (**AABBs**) in various 3D environments. We use **search-based** and **sampling-based** methods and evaluate path quality, runtime, and explored states.

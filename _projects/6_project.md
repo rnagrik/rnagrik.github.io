@@ -3,7 +3,7 @@ layout: page
 title: Trajectory Tracking with Stochastic Optimal Control
 description:
 img: assets/myprojects/pr6/CEC.gif
-importance: 1
+importance: 15
 ---
 
 In this project, we perform trajectory tracking for a differential-drive robot moving in a plane with obstacles. We compare Receding-Horizon **Certainty Equivalent Control (CEC)** and **Generalized Policy Iteration (GPI)** methods.

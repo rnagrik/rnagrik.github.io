@@ -3,7 +3,7 @@ layout: page
 title: Visual-Inertial SLAM
 description:
 img: assets/myprojects/pr3/lmap.gif
-importance: 1
+importance: 12
 ---
 
 In this project, we implement **Visual–Inertial SLAM** using an IMU and a stereo camera. The goal is to estimate the robot trajectory and build a landmark map from synchronized visual measurements. 
