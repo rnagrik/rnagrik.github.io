@@ -2,7 +2,7 @@
 layout: page
 title: Visual-Inertial SLAM
 description:
-img: assets/myprojects/pr3/lmap.gif
+img: assets/myprojects/pr3/lmap_sq.gif
 importance: 12
 ---
 
