@@ -39,7 +39,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-door-key-navigation-with-dynamic-programming",
-          title: 'Door–Key Navigation with Dynamic Programming',
+          title: 'Door-Key Navigation with Dynamic Programming',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
@@ -58,16 +58,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
