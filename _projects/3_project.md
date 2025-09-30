@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visual-Inertial SLAM
+title: Visual-Inertial SLAM with EKF
 description:
 img: assets/myprojects/pr3/lmap_sq.gif
 importance: 12
