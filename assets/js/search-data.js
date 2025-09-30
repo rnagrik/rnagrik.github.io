@@ -33,8 +33,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-visual-inertial-slam",
-          title: 'Visual-Inertial SLAM',
+            },},{id: "projects-visual-inertial-slam-with-ekf",
+          title: 'Visual-Inertial SLAM with EKF',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
