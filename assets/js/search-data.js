@@ -23,41 +23,41 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-orientation-tracking-amp-panorama-generation",
-          title: 'Orientation Tracking &amp;amp; Panorama Generation',
+        },{id: "projects-door-key-navigation-with-dynamic-programming",
+          title: 'Door-Key Navigation with Dynamic Programming',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/keydoorMDP/";
             },},{id: "projects-lidar-slam-with-pose-graph-optimization",
           title: 'LiDAR SLAM with Pose Graph Optimization',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-visual-inertial-slam-with-ekf",
-          title: 'Visual-Inertial SLAM with EKF',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-door-key-navigation-with-dynamic-programming",
-          title: 'Door-Key Navigation with Dynamic Programming',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/lidarSLAM/";
             },},{id: "projects-3d-motion-planning",
           title: '3D Motion Planning',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/motionPlanning/";
+            },},{id: "projects-multi-object-tracking-with-ibvs-amp-mpc",
+          title: 'Multi-Object Tracking with IBVS &amp;amp; MPC',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/objectTracking/";
+            },},{id: "projects-orientation-tracking-amp-panorama-generation",
+          title: 'Orientation Tracking &amp;amp; Panorama Generation',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/panoramaGeneration/";
             },},{id: "projects-trajectory-tracking-with-stochastic-optimal-control",
           title: 'Trajectory Tracking with Stochastic Optimal Control',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-nearest-object-tracking-with-ibvs-amp-mpc",
-          title: 'Nearest-Object Tracking with IBVS &amp;amp; MPC',
+              window.location.href = "/projects/trajectoryTracking/";
+            },},{id: "projects-visual-inertial-slam-with-ekf",
+          title: 'Visual-Inertial SLAM with EKF',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/projects/viSLAM/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
