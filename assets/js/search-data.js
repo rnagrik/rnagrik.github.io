@@ -38,6 +38,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/motionPlanning/";
+            },},{id: "projects-safe-fedce-a-multi-agent-learning-and-control-architecture",
+          title: 'Safe FedCE: a multi-agent learning and control architecture',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/multiAgent/";
             },},{id: "projects-multi-object-tracking-with-ibvs-amp-mpc",
           title: 'Multi-Object Tracking with IBVS &amp;amp; MPC',
           description: "",
