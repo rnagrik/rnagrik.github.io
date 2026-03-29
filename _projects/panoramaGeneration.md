@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Orientation Tracking & Panorama Generation
+github_link: https://github.com/rnagrik/Orientation-Tracking
 description:
 img: assets/myprojects/pr1/pano_sq.png
 importance: 20

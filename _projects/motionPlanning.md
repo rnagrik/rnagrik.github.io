@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 3D Motion Planning
+github_link: https://github.com/rnagrik/Motion-Planning
 description:
 img: assets/myprojects/pr5/RRTConnect_window.gif
 importance: 13

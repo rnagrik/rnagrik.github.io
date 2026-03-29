@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Door-Key Navigation with Dynamic Programming
+github_link: https://github.com/rnagrik/KeyDoor-MDP
 description:
 img: assets/myprojects/pr4/doorkey-8x8-normal.gif
 importance: 19

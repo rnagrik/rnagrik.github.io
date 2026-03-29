@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Visual-Inertial SLAM with EKF
+github_link: https://github.com/rnagrik/Visual-Inertial-SLAM
 description:
 img: assets/myprojects/pr3/lmap_sq.gif
 importance: 12

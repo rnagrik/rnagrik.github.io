@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Nearest-Object Tracking with IBVS & MPC
+title: Multi-Object Tracking with IBVS & MPC
+github_link: https://github.com/rnagrik/MPC-VisualTracking
 description:
 img: assets/myprojects/pr7/MPC2_camera_view.gif
 importance: 11

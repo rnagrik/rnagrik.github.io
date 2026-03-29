@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Trajectory Tracking with Stochastic Optimal Control
+github_link: https://github.com/rnagrik/CEC-GPI
 description:
 img: assets/myprojects/pr6/CEC.gif
 importance: 15

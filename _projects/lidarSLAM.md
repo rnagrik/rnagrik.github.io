@@ -3,6 +3,7 @@ layout: page
 title: LiDAR SLAM with Pose Graph Optimization
 description:
 img: assets/myprojects/pr2/texture.gif
+github_link: https://github.com/rnagrik/LiDAR-SLAM
 importance: 14
 ---
 
