@@ -2,13 +2,25 @@
 layout: about
 title: home
 permalink: /
-subtitle: "Graduate student @<a href = 'https://ucsd.edu/'>UC San Diego</a> | Previously: <a href = 'https://www.iitd.ac.in/'>IIT Delhi</a>"
+subtitle: "Robotics @ <a href = 'https://ucsd.edu/'>UC San Diego</a> | Previously: <a href = 'https://www.iitd.ac.in/'>IIT Delhi</a>"
 
 profile:
-  align: 
-  image: 
+  align: # left, center, right
+  image: prof.jpeg
   image_circular: false # crops the image to make it circular
   more_info:
+
+_styles: |
+  .profile { width: 32%; }
+
+  @media (max-width: 575px) {
+    .profile { width: 100%; } 
+  }
+
+  .post article {
+    font-size: 0.98rem;
+    line-height: 1.8;
+  }
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,12 +36,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a master's student at UC San Diego working in robotics. Before this, I graduated from IIT Delhi with a bachelor's in Mechanical Engineering.
+I'm a recent graduate student at UC San Diego working in robotics. My interests include motion planning, control, mapping, and multi-agent systems. I'm currently a graduate researcher at the <a href = 'https://erl.ucsd.edu/'>Existential Robotics Laboratory (ERL)</a>, focusing on safe and intelligent robot collaboration in complex real-world environments. 
 
-My interests span motion and behavior planning, SLAM, robot learning, and multi-agent systems. I work as a graduate researcher at the <a href = 'https://erl.ucsd.edu/'>Existential Robotics Laboratory (ERL)</a> on intelligent and safe robot collaboration in complex real-world scenarios. 
+As an undergraduate, I was part of the Formula SAE team, where I worked on high-voltage battery systems for an open-wheel racecar. 
 
-During my undergraduate studies, I was part of the Formula SAE team, where I worked on developing the high-voltage battery for our open-wheel racecar.
-
-In my spare time, I like to swim, hike along the San Diego coast line, watch football and solve sudoku.
-
-Please feel free to check out my projects and reach out, if anything interests you. I'm always eager to connect!
+During my leisure hours, I enjoy swimming, hiking, Formula 1, and solving sudoku.
